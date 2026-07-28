@@ -115,3 +115,10 @@ Gemini API 호출을 위해 환경 변수에 `GEMINI_API_KEY`를 등록해야 �
   ```bash
   export GEMINI_API_KEY="your-gemini-api-key-here"
   ```
+
+---
+
+## 6. 구현 및 개발 지침
+* **docs/ 문서 필수 참고**:
+  - 로봇 제어 기능(예: LED, 소리, 센서, 자율주행 등)을 실제 코드로 구현할 때는 프로젝트 내 [docs/](file:///c:/Users/user/Desktop/hamster/docs) 디렉토리에 있는 차시별 학습 가이드 문서(예: `03차시-LED켜고-소리내기.md`, `05차시-근접센서-사용하기.md` 등)를 먼저 확인해야 합니다.
+  - 각 문서에 기술된 API 사용법(예: 바퀴 모터 제어, 부저 음계 설정, 센서 값 읽기 등)과 공식 권장 패턴을 준수하여 에이전트와 도구를 개발해야 합니다.
